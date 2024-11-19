@@ -21,5 +21,5 @@ target_link_libraries(quaketool PRIVATE Qt6::Widgets)
 
 set_target_properties(quaketool PROPERTIES
     WIN32_EXECUTABLE ON
-    MACOSX_BUNDLE OFF
+    MACOSX_BUNDLE ON
 )

@@ -1,0 +1,5 @@
+/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/quaketool.dir
+/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/edit_cache.dir
+/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/rebuild_cache.dir
+/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/quaketool_autogen_timestamp_deps.dir
+/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/quaketool_autogen.dir
