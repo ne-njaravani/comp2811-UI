@@ -354,6 +354,22 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/operations.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/container_adaptor.h \
@@ -777,10 +793,12 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -915,10 +933,39 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/dashboard.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/dataset.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/model.hpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/pops.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/quake.hpp \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QAbstractAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QAbstractSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QChart \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QChartGlobal \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QChartView \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QLegend \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QLineSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QXYSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qabstractaxis.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qabstractseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qchart.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qchartglobal.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qchartview.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qlegend.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qlineseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qtcharts-config.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qtchartsexports.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qxyseries.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QAbstractTableModel \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QList \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QMargins \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QRect \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -938,6 +985,7 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -949,11 +997,22 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qdir.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qfile.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qfileinfo.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
@@ -964,12 +1023,15 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qitemselectionmodel.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
@@ -979,6 +1041,7 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
@@ -990,6 +1053,7 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
@@ -1021,6 +1085,7 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtimezone.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -1031,39 +1096,113 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/QBrush \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/QColor \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/QFont \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/QImage \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/QPainter \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/QPen \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/QStandardItemModel \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/QTransform \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qevent.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qeventpoint.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication_platform.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qinputdevice.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qstandarditemmodel.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextcursor.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextformat.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QComboBox \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QFileDialog \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsWidget \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QLineEdit \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QStackedWidget \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QStyledItemDelegate \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QTableView \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemdelegate.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemview.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractspinbox.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qcombobox.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qfiledialog.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicslayoutitem.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicswidget.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qlineedit.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qrubberband.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qslider.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qstackedwidget.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qstyle.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qstyleditemdelegate.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qstyleoption.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabbar.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtableview.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \

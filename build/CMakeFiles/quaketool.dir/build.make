@@ -174,6 +174,34 @@ CMakeFiles/quaketool.dir/stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quaketool.dir/stats.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/stats.cpp" -o CMakeFiles/quaketool.dir/stats.cpp.s
 
+CMakeFiles/quaketool.dir/dashboard.cpp.o: CMakeFiles/quaketool.dir/flags.make
+CMakeFiles/quaketool.dir/dashboard.cpp.o: /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/dashboard.cpp
+CMakeFiles/quaketool.dir/dashboard.cpp.o: CMakeFiles/quaketool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/quaketool.dir/dashboard.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quaketool.dir/dashboard.cpp.o -MF CMakeFiles/quaketool.dir/dashboard.cpp.o.d -o CMakeFiles/quaketool.dir/dashboard.cpp.o -c "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/dashboard.cpp"
+
+CMakeFiles/quaketool.dir/dashboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quaketool.dir/dashboard.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/dashboard.cpp" > CMakeFiles/quaketool.dir/dashboard.cpp.i
+
+CMakeFiles/quaketool.dir/dashboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quaketool.dir/dashboard.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/dashboard.cpp" -o CMakeFiles/quaketool.dir/dashboard.cpp.s
+
+CMakeFiles/quaketool.dir/pops.cpp.o: CMakeFiles/quaketool.dir/flags.make
+CMakeFiles/quaketool.dir/pops.cpp.o: /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/pops.cpp
+CMakeFiles/quaketool.dir/pops.cpp.o: CMakeFiles/quaketool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/quaketool.dir/pops.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quaketool.dir/pops.cpp.o -MF CMakeFiles/quaketool.dir/pops.cpp.o.d -o CMakeFiles/quaketool.dir/pops.cpp.o -c "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pops.cpp"
+
+CMakeFiles/quaketool.dir/pops.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quaketool.dir/pops.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pops.cpp" > CMakeFiles/quaketool.dir/pops.cpp.i
+
+CMakeFiles/quaketool.dir/pops.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quaketool.dir/pops.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pops.cpp" -o CMakeFiles/quaketool.dir/pops.cpp.s
+
 # Object files for target quaketool
 quaketool_OBJECTS = \
 "CMakeFiles/quaketool.dir/quaketool_autogen/mocs_compilation.cpp.o" \
@@ -182,7 +210,9 @@ quaketool_OBJECTS = \
 "CMakeFiles/quaketool.dir/dataset.cpp.o" \
 "CMakeFiles/quaketool.dir/model.cpp.o" \
 "CMakeFiles/quaketool.dir/window.cpp.o" \
-"CMakeFiles/quaketool.dir/stats.cpp.o"
+"CMakeFiles/quaketool.dir/stats.cpp.o" \
+"CMakeFiles/quaketool.dir/dashboard.cpp.o" \
+"CMakeFiles/quaketool.dir/pops.cpp.o"
 
 # External object files for target quaketool
 quaketool_EXTERNAL_OBJECTS =
@@ -194,12 +224,17 @@ quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/dataset.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/model.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/window.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/stats.cpp.o
+quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/dashboard.cpp.o
+quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/pops.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/build.make
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/QtCharts
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/QtGui
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/QtCore
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable quaketool.app/Contents/MacOS/quaketool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable quaketool.app/Contents/MacOS/quaketool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quaketool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

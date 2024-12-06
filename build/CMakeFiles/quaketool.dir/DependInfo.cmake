@@ -9,9 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "quaketool_autogen/timestamp" "custom" "quaketool_autogen/deps"
+  "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/dashboard.cpp" "CMakeFiles/quaketool.dir/dashboard.cpp.o" "gcc" "CMakeFiles/quaketool.dir/dashboard.cpp.o.d"
   "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/dataset.cpp" "CMakeFiles/quaketool.dir/dataset.cpp.o" "gcc" "CMakeFiles/quaketool.dir/dataset.cpp.o.d"
   "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/main.cpp" "CMakeFiles/quaketool.dir/main.cpp.o" "gcc" "CMakeFiles/quaketool.dir/main.cpp.o.d"
   "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/model.cpp" "CMakeFiles/quaketool.dir/model.cpp.o" "gcc" "CMakeFiles/quaketool.dir/model.cpp.o.d"
+  "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pops.cpp" "CMakeFiles/quaketool.dir/pops.cpp.o" "gcc" "CMakeFiles/quaketool.dir/pops.cpp.o.d"
   "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/quake.cpp" "CMakeFiles/quaketool.dir/quake.cpp.o" "gcc" "CMakeFiles/quaketool.dir/quake.cpp.o.d"
   "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/quaketool_autogen/mocs_compilation.cpp" "CMakeFiles/quaketool.dir/quaketool_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/quaketool.dir/quaketool_autogen/mocs_compilation.cpp.o.d"
   "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/stats.cpp" "CMakeFiles/quaketool.dir/stats.cpp.o" "gcc" "CMakeFiles/quaketool.dir/stats.cpp.o.d"

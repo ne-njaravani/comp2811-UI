@@ -1,14 +1,27 @@
-// COMP2811 Coursework 2: application entry point
-
 #include <QtWidgets>
 #include "window.hpp"
 
 int main(int argc, char* argv[])
 {
-  QApplication app(argc, argv);
+    QApplication app(argc, argv);
 
-  QuakeWindow window;
-  window.show();
+    QTranslator translator;
 
-  return app.exec();
+    // Detect system locale
+    QString locale = QLocale::system().name().split('_').first();
+
+    // Attempt to load the appropriate translation file
+    QString translationFilePath = "solution/translations/" + locale + ".qm";
+    if (translator.load(translationFilePath)) {
+        QCoreApplication::installTranslator(&translator);
+        qDebug() << "Loaded translation file:" << translationFilePath;
+    } else {
+        qDebug() << "No translation file found for locale:" << locale;
+    }
+
+    // Create and show the main window
+    QuakeWindow window;
+    window.show();
+
+    return app.exec();
 }

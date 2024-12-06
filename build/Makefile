@@ -155,6 +155,30 @@ quaketool_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_autogen.dir/build.make CMakeFiles/quaketool_autogen.dir/build
 .PHONY : quaketool_autogen/fast
 
+dashboard.o: dashboard.cpp.o
+.PHONY : dashboard.o
+
+# target to build an object file
+dashboard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/dashboard.cpp.o
+.PHONY : dashboard.cpp.o
+
+dashboard.i: dashboard.cpp.i
+.PHONY : dashboard.i
+
+# target to preprocess a source file
+dashboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/dashboard.cpp.i
+.PHONY : dashboard.cpp.i
+
+dashboard.s: dashboard.cpp.s
+.PHONY : dashboard.s
+
+# target to generate assembly for a file
+dashboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/dashboard.cpp.s
+.PHONY : dashboard.cpp.s
+
 dataset.o: dataset.cpp.o
 .PHONY : dataset.o
 
@@ -226,6 +250,30 @@ model.s: model.cpp.s
 model.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/model.cpp.s
 .PHONY : model.cpp.s
+
+pops.o: pops.cpp.o
+.PHONY : pops.o
+
+# target to build an object file
+pops.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/pops.cpp.o
+.PHONY : pops.cpp.o
+
+pops.i: pops.cpp.i
+.PHONY : pops.i
+
+# target to preprocess a source file
+pops.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/pops.cpp.i
+.PHONY : pops.cpp.i
+
+pops.s: pops.cpp.s
+.PHONY : pops.s
+
+# target to generate assembly for a file
+pops.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/pops.cpp.s
+.PHONY : pops.cpp.s
 
 quake.o: quake.cpp.o
 .PHONY : quake.o
@@ -334,6 +382,9 @@ help:
 	@echo "... quaketool_autogen"
 	@echo "... quaketool_autogen_timestamp_deps"
 	@echo "... quaketool"
+	@echo "... dashboard.o"
+	@echo "... dashboard.i"
+	@echo "... dashboard.s"
 	@echo "... dataset.o"
 	@echo "... dataset.i"
 	@echo "... dataset.s"
@@ -343,6 +394,9 @@ help:
 	@echo "... model.o"
 	@echo "... model.i"
 	@echo "... model.s"
+	@echo "... pops.o"
+	@echo "... pops.i"
+	@echo "... pops.s"
 	@echo "... quake.o"
 	@echo "... quake.i"
 	@echo "... quake.s"

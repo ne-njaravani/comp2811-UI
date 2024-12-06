@@ -125,7 +125,7 @@ The **main dashboard** provides an at-a-glance summary of key pollutant data and
 
 Each of the following pages should include relevant data visualisations, rollover or pop-up content for additional details, and compliance indicators to help people understand pollutant safety status.
 
-1. **Pollutant Overview Page**
+1. **Pollutant Overview Page** - Eben
     - **Purpose**: Display detailed information on common pollutants like **1,1,2-Trichloroethane** and **Chloroform**.
     - **Key Elements**:
         - **Search Function**: Include a search bar to help people locate pollutants by name.
@@ -147,7 +147,7 @@ Each of the following pages should include relevant data visualisations, rollove
         - **Compliance Indicators**: Show adherence to EU Bathing Water standards regarding litter presence.
         - **Interactive Elements**: Allow people to filter by location or type of litter to explore trends.
 
-4. **Fluorinated Compounds Page**
+4. **Fluorinated Compounds Page** - Anhmlpje
     - **Purpose**: Display levels of **PFAS** and other fluorinated compounds, which are monitored for their environmental persistence.
     - **Key Elements**:
         - **Map or Time-Series Visualisation**: Show distribution of fluorinated compounds across sites, using either a map view with colour-coded markers or time-series charts.

@@ -12,9 +12,6 @@ static const int MIN_WIDTH = 620;
 QuakeWindow::QuakeWindow(): QMainWindow(), statsDialog(nullptr)
 {
   createMainWidget();
-  createFileSelectors();
-  createButtons();
-  createToolBar();
   createStatusBar();
   addFileMenu();
   addHelpMenu();
@@ -26,68 +23,71 @@ QuakeWindow::QuakeWindow(): QMainWindow(), statsDialog(nullptr)
 
 void QuakeWindow::createMainWidget()
 {
-  table = new QTableView();
-  table->setModel(&model);
+    // Initialize QStackedWidget
+    pages = new QStackedWidget(this);
 
-  QFont tableFont = QFontDatabase::systemFont(QFontDatabase::FixedFont);
-  table->setFont(tableFont);
+    // Create and add the Dashboard page
+    dashboard = new Dashboard();
 
-  setCentralWidget(table); 
-}
+    // Connect Dashboard buttons to navigate to respective pages
+    connect(dashboard, &Dashboard::navigateToPollutantOverview, [this]() {
+        pages->setCurrentIndex(1); // Switch to Pollutant Overview page
+    });
+    connect(dashboard, &Dashboard::navigateToPOPs, [this]() {
+        pages->setCurrentIndex(2); // Switch to POPs page
+    });
+    connect(dashboard, &Dashboard::navigateToEnvironmentalLitter, [this]() {
+        pages->setCurrentIndex(3); // Switch to Environmental Litter Indicators page
+    });
+    connect(dashboard, &Dashboard::navigateToFluorinatedCompounds, [this]() {
+        pages->setCurrentIndex(4); // Switch to Fluorinated Compounds page
+    });
+    connect(dashboard, &Dashboard::navigateToComplianceDashboard, [this]() {
+        pages->setCurrentIndex(5); // Switch to Compliance Dashboard
+    });
+    connect(dashboard, &Dashboard::navigateToGeographicalHotspots, [this]() {
+        pages->setCurrentIndex(6); // Switch to Geographical Hotspots page
+    });
+    pages->addWidget(dashboard);
 
+    // Placeholder for Pollutant Overview page
+    QWidget* pollutantOverviewPage = new QWidget(); 
+    pages->addWidget(pollutantOverviewPage);
 
-void QuakeWindow::createFileSelectors()
-{
-  QStringList significanceOptions;
-  significanceOptions << "significant" << "4.5" << "2.5" << "1.0" << "all";
-  significance = new QComboBox();
-  significance->addItems(significanceOptions);
+    // Create and add the POPs page
+    popsPage = new POPsPage();
+    connect(popsPage, &POPsPage::navigateToDashboard, [this]() {
+        pages->setCurrentIndex(0); // Switch back to Dashboard
+    });
+    pages->addWidget(popsPage);
 
-  QStringList periodOptions;
-  periodOptions << "hour" << "day" << "week" << "month";
-  period = new QComboBox();
-  period->addItems(periodOptions);
-}
+    // Placeholder for Environmental Litter Indicators page
+    QWidget* litterIndicatorsPage = new QWidget(); 
+    pages->addWidget(litterIndicatorsPage);
 
+    // Placeholder for Fluorinated Compounds page
+    QWidget* fluorinatedCompoundsPage = new QWidget(); 
+    pages->addWidget(fluorinatedCompoundsPage);
 
-void QuakeWindow::createButtons()
-{
-  loadButton = new QPushButton("Load");
-  statsButton = new QPushButton("Stats");
+    // Placeholder for Compliance Dashboard page
+    QWidget* complianceDashboardPage = new QWidget(); 
+    pages->addWidget(complianceDashboardPage);
 
-  connect(loadButton, SIGNAL(clicked()), this, SLOT(openCSV()));
-  connect(statsButton, SIGNAL(clicked()), this, SLOT(displayStats()));
-}
+    // Placeholder for Geographical Hotspots page
+    QWidget* geographicalHotspotsPage = new QWidget(); 
+    pages->addWidget(geographicalHotspotsPage);
 
-
-void QuakeWindow::createToolBar()
-{
-  QToolBar* toolBar = new QToolBar();
-
-  QLabel* significanceLabel = new QLabel("Significance");
-  significanceLabel->setAlignment(Qt::AlignVCenter);
-  toolBar->addWidget(significanceLabel);
-  toolBar->addWidget(significance);
-
-  QLabel* periodLabel = new QLabel("Period");
-  periodLabel->setAlignment(Qt::AlignVCenter);
-  toolBar->addWidget(periodLabel);
-  toolBar->addWidget(period);
-
-  toolBar->addSeparator();
-
-  toolBar->addWidget(loadButton);
-  toolBar->addWidget(statsButton);
-
-  addToolBar(Qt::LeftToolBarArea, toolBar);
+    // Set QStackedWidget as the central widget
+    setCentralWidget(pages);
 }
 
 
 void QuakeWindow::createStatusBar()
 {
-  fileInfo = new QLabel("Current file: <none>");
-  QStatusBar* status = statusBar();
-  status->addWidget(fileInfo);
+    currentFileName = "Y-2024.csv";
+    fileInfo = new QLabel(QString("Current file: %1").arg(currentFileName));
+    QStatusBar* status = statusBar();
+    status->addWidget(fileInfo);
 }
 
 
@@ -131,55 +131,6 @@ void QuakeWindow::setDataLocation()
     dataLocation = directory;
   }
 }
-
-
-void QuakeWindow::openCSV()
-{
-  if (dataLocation == "") {
-    QMessageBox::critical(this, "Data Location Error",
-      "Data location has not been set!\n\n"
-      "You can specify this via the File menu."
-    );
-    return;
-  }
-
-  auto filename = QString("%1_%2.csv")
-    .arg(significance->currentText()).arg(period->currentText());
-
-  auto path = dataLocation + "/" + filename;
-
-  try {
-    model.updateFromFile(path);
-  }
-  catch (const std::exception& error) {
-    QMessageBox::critical(this, "CSV File Error", error.what());
-    return;
-  }
-
-  fileInfo->setText(QString("Current file: <kbd>%1</kbd>").arg(filename));
-  table->resizeColumnsToContents();
-
-  if (statsDialog != nullptr && statsDialog->isVisible()) {
-    statsDialog->update(model.meanDepth(), model.meanMagnitude());
-  }
-}
-
-
-void QuakeWindow::displayStats()
-{
-  if (model.hasData()) {
-    if (statsDialog == nullptr) {
-      statsDialog = new StatsDialog(this);
-    }
-
-    statsDialog->update(model.meanDepth(), model.meanMagnitude());
-
-    statsDialog->show();
-    statsDialog->raise();
-    statsDialog->activateWindow();
-  }
-}
-
 
 void QuakeWindow::about()
 {

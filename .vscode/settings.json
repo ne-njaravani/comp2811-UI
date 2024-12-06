@@ -1,7 +1,9 @@
 {
     "files.associations": {
         "string": "cpp",
-        "qrandomgenerator": "cpp"
+        "qrandomgenerator": "cpp",
+        "limits": "cpp",
+        "qcombobox": "cpp"
     },
     "cmake.ctestArgs": ["--no-tests"],
     "cmake.sourceDirectory": "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution",

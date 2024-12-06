@@ -1616,9 +1616,50 @@ CMakeFiles/quaketool.dir/window.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/window.hpp \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QStackedWidget \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/model.hpp \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QAbstractTableModel \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/dataset.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/quake.hpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/dashboard.hpp \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QPushButton \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QGridLayout \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QColor \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QLineEdit \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QFileDialog \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QDebug \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/pops.hpp \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QTableView \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QStandardItemModel \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QComboBox \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QChartView \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qchartview.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QAbstractAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qabstractaxis.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QChartGlobal \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qchartglobal.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qtcharts-config.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qtchartsexports.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QPen \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QFont \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QAbstractSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qabstractseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QChart \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qchart.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QLegend \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qlegend.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QGraphicsWidget \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QBrush \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QGraphicsView \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QLineSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qlineseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QXYSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qxyseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QImage \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QStyledItemDelegate \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QPainter \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/stats.hpp \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QDialog
