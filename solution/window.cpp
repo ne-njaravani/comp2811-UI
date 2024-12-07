@@ -1,5 +1,3 @@
-// COMP2811 Coursework 2 sample solution: main window
-
 #include <QtWidgets>
 #include <stdexcept>
 #include <iostream>
@@ -39,19 +37,19 @@ void QuakeWindow::createMainWidget()
     connect(dashboard, &Dashboard::navigateToEnvironmentalLitter, [this]() {
         pages->setCurrentIndex(3); // Switch to Environmental Litter Indicators page
     });
-    connect(dashboard, &Dashboard::navigateToFluorinatedCompounds, [this]() {
+    connect(dashboard, &Dashboard::navigateToFluorinatedPage, [this]() {
         pages->setCurrentIndex(4); // Switch to Fluorinated Compounds page
     });
     connect(dashboard, &Dashboard::navigateToComplianceDashboard, [this]() {
         pages->setCurrentIndex(5); // Switch to Compliance Dashboard
     });
-    connect(dashboard, &Dashboard::navigateToGeographicalHotspots, [this]() {
-        pages->setCurrentIndex(6); // Switch to Geographical Hotspots page
-    });
     pages->addWidget(dashboard);
 
-    // Placeholder for Pollutant Overview page
-    QWidget* pollutantOverviewPage = new QWidget(); 
+    // Create and add the Pollutant Overview page
+    pollutantOverviewPage = new PollutantOverviewPage();
+    connect(pollutantOverviewPage, &PollutantOverviewPage::navigateToDashboard, [this]() {
+        pages->setCurrentIndex(0); // Switch back to Dashboard
+    });
     pages->addWidget(pollutantOverviewPage);
 
     // Create and add the POPs page
@@ -62,20 +60,25 @@ void QuakeWindow::createMainWidget()
     pages->addWidget(popsPage);
 
     // Placeholder for Environmental Litter Indicators page
-    QWidget* litterIndicatorsPage = new QWidget(); 
+    litterIndicatorsPage = new EnvironmentalLitterIndicatorsPage();
+    connect(litterIndicatorsPage, &EnvironmentalLitterIndicatorsPage::navigateToDashboard, [this]() {
+        pages->setCurrentIndex(0); // Switch back to Dashboard
+    });
     pages->addWidget(litterIndicatorsPage);
 
-    // Placeholder for Fluorinated Compounds page
-    QWidget* fluorinatedCompoundsPage = new QWidget(); 
-    pages->addWidget(fluorinatedCompoundsPage);
+    // Create and add the Fluorinated Compounds page
+    fluorinatedPage = new FluorinatedPage();
+    connect(fluorinatedPage, &FluorinatedPage::navigateToDashboard, [this]() {
+        pages->setCurrentIndex(0); // Switch back to Dashboard
+    });
+    pages->addWidget(fluorinatedPage);
 
     // Placeholder for Compliance Dashboard page
-    QWidget* complianceDashboardPage = new QWidget(); 
+    complianceDashboardPage = new ComplianceDashboardPage();
+    connect(complianceDashboardPage, &ComplianceDashboardPage::navigateToDashboard, [this]() {
+        pages->setCurrentIndex(0); // Switch back to Dashboard
+    });
     pages->addWidget(complianceDashboardPage);
-
-    // Placeholder for Geographical Hotspots page
-    QWidget* geographicalHotspotsPage = new QWidget(); 
-    pages->addWidget(geographicalHotspotsPage);
 
     // Set QStackedWidget as the central widget
     setCentralWidget(pages);

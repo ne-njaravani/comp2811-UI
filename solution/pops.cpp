@@ -173,17 +173,17 @@ QStringList POPsPage::parseCSVLine(const QString& line) const
 
 void POPsPage::populateDropdown()
 {
-    QSet<QString> locationDateSet; // To store "Location - Date" pairs
+    QSet<QString> locationDateSet; 
     for (int i = 0; i < dataModel->rowCount(); ++i) {
-        QString location = dataModel->item(i, 0)->text(); // Get the sampling point
-        QString date = dataModel->item(i, 1)->text();     // Get the date
-        QString locationDate = QString("%1 - %2").arg(location, date); // Format as "Location - Date"
-        locationDateSet.insert(locationDate); // Add to set
+        QString location = dataModel->item(i, 0)->text();
+        QString date = dataModel->item(i, 1)->text();
+        QString locationDate = QString("%1 - %2").arg(location, date);
+        locationDateSet.insert(locationDate); 
     }
 
     QStringList sortedLocationDates = locationDateSet.values();
-    std::sort(sortedLocationDates.begin(), sortedLocationDates.end()); // Sort alphabetically
-    samplingPointDropdown->addItems(sortedLocationDates); // Add to dropdown
+    std::sort(sortedLocationDates.begin(), sortedLocationDates.end()); 
+    samplingPointDropdown->addItems(sortedLocationDates);
 }
 
 void POPsPage::createChartForPoint(const QString& pointWithDate) {
@@ -192,14 +192,15 @@ void POPsPage::createChartForPoint(const QString& pointWithDate) {
     QMap<QString, QColor> colorMap;
     QMap<QString, QScatterSeries*> dotMap;
 
-    // Split the selected dropdown value into location and date
-    QStringList parts = pointWithDate.split(" - ");
-    if (parts.size() != 2) {
+    // Split the dropdown value into location and date
+    int lastDashIndex = pointWithDate.lastIndexOf(" - ");
+    if (lastDashIndex == -1) {
         qWarning() << "Invalid dropdown selection format:" << pointWithDate;
         return;
     }
-    QString location = parts[0];
-    QString date = parts[1];
+
+    QString location = pointWithDate.left(lastDashIndex).trimmed();
+    QString date = pointWithDate.mid(lastDashIndex + 3).trimmed();
 
     // Color mapping for pollutants
     colorMap["PCB - 028"] = Qt::blue;
@@ -215,6 +216,8 @@ void POPsPage::createChartForPoint(const QString& pointWithDate) {
     int minIndex = std::numeric_limits<int>::max();
     int maxIndex = std::numeric_limits<int>::min();
     double maxValue = 0.0;
+    double padding = (maxIndex - minIndex) * 0.02;
+    if (padding < 1) padding = 1;
 
     // Process the data and populate series
     for (int i = 0; i < dataModel->rowCount(); ++i) {
@@ -232,7 +235,7 @@ void POPsPage::createChartForPoint(const QString& pointWithDate) {
             double value = dataModel->item(i, 3)->text().toDouble(&ok);
 
             if (ok) {
-                QPointF dataPoint(i, value);
+                QPointF dataPoint(i + 1, value);
                 series->append(dataPoint);
 
                 if (!dotMap.contains(pollutant)) {
@@ -266,17 +269,17 @@ void POPsPage::createChartForPoint(const QString& pointWithDate) {
         }
     }
 
-    // Add a threshold line
+    // Add threshold line
     QLineSeries* thresholdLine = new QLineSeries();
-    thresholdLine->setName("Non-Compliant Threshold");
+    thresholdLine->setName("Threshold (0.001 µg/L)");
     thresholdLine->setColor(Qt::red);
     thresholdLine->setPen(QPen(Qt::red, 2, Qt::DashLine));
-    thresholdLine->append(minIndex, 0.001);
-    thresholdLine->append(maxIndex, 0.001);
+    thresholdLine->append(series->at(0).x(), 0.001); 
+    thresholdLine->append(series->at(series->count() - 1).x(), 0.001); 
     chart->addSeries(thresholdLine);
 
     // Add the main series
-    series->setName("Pollutant Levels");
+    series->setName("Concentration Levels");
     series->setColor(Qt::black);
     series->setPen(QPen(Qt::black, 2));
     chart->addSeries(series);
@@ -286,12 +289,21 @@ void POPsPage::createChartForPoint(const QString& pointWithDate) {
         chart->addSeries(dotSeries);
     }
 
+    for (int i = 0; i < dataModel->rowCount(); ++i) {
+    QString rowLocation = dataModel->item(i, 0)->text();
+    QString rowDate = dataModel->item(i, 1)->text();
+
+    if (rowLocation == location && rowDate == date) {
+        minIndex = qMin(minIndex, i);
+        maxIndex = qMax(maxIndex, i);
+        }
+    }
+
     // Create and configure the x-axis
     QValueAxis* xAxis = new QValueAxis();
-    xAxis->setLabelsVisible(false);
-    double padding = (maxIndex - minIndex) * 0.02;
-    if (padding < 1) padding = 1;
-    xAxis->setRange(minIndex - padding, maxIndex + padding);
+    xAxis->setTitleText("Index"); 
+    xAxis->setLabelsVisible(true); 
+    xAxis->setRange(minIndex - padding, maxIndex + padding); 
     chart->addAxis(xAxis, Qt::AlignBottom);
 
     // Create and configure the y-axis

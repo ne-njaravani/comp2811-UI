@@ -1661,5 +1661,24 @@ CMakeFiles/quaketool.dir/window.cpp.o: \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QImage \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QStyledItemDelegate \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QPainter \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/fluorinated.hpp \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QScatterSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qscatterseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QDateTime \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/pollutantOverview.hpp \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QBarSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qbarseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QAbstractBarSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qabstractbarseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QBarCategoryAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qbarcategoryaxis.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QValueAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qvalueaxis.h \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/envlitter.hpp \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QDateTimeAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qdatetimeaxis.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QScrollArea \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/compliance.hpp \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QSet \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/stats.hpp \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QDialog

@@ -77,7 +77,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 25,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -468,7 +468,11 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9,
+				10,
+				11,
+				12
 			]
 		}
 	],
@@ -584,7 +588,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				9
+				13
 			]
 		},
 		{
@@ -598,14 +602,18 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9,
+				10,
+				11,
+				12
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10
+				14
 			]
 		}
 	],
@@ -664,6 +672,30 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "pops.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "fluorinated.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "pollutantOverview.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "envlitter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "compliance.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{

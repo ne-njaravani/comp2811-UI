@@ -933,38 +933,58 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/compliance.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/dashboard.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/dataset.hpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/envlitter.hpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/fluorinated.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/model.hpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/pollutantOverview.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/pops.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/quake.hpp \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QAbstractAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QAbstractBarSeries \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QAbstractSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QBarCategoryAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QBarSeries \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QChart \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QChartGlobal \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QChartView \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QDateTimeAxis \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QLegend \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QLineSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QScatterSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QValueAxis \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/QXYSeries \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qabstractaxis.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qabstractbarseries.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qabstractseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qbarcategoryaxis.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qbarseries.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qchart.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qchartglobal.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qchartview.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qdatetimeaxis.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qlegend.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qlineseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qscatterseries.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qtcharts-config.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qtchartsexports.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qvalueaxis.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/Headers/qxyseries.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QAbstractTableModel \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QDateTime \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QList \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QMap \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QMargins \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QRect \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QSet \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
@@ -1165,6 +1185,7 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QLineEdit \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QScrollArea \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QStackedWidget \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QStyledItemDelegate \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QTableView \

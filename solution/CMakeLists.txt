@@ -19,6 +19,10 @@ qt_add_executable(quaketool
     stats.cpp
     dashboard.cpp
     pops.cpp
+    fluorinated.cpp
+    pollutantOverview.cpp
+    envlitter.cpp
+    compliance.cpp
 )
 
 # Link Qt libraries

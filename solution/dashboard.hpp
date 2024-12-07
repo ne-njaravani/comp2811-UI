@@ -18,18 +18,20 @@ class Dashboard : public QWidget
     Q_OBJECT
 
 public:
+    // Constructor
     explicit Dashboard(QWidget* parent = nullptr);
 
 signals:
+    // Signal to navigate to different pages
     void navigateToPollutantOverview();
     void navigateToPOPs();
     void navigateToEnvironmentalLitter();
-    void navigateToFluorinatedCompounds();
+    void navigateToFluorinatedPage();
     void navigateToComplianceDashboard();
-    void navigateToGeographicalHotspots();
     void customDatabaseLoaded(const QString& filePath);
 
 private:
+    // Widgets for the page
     QWidget* createCard(const QString& title, 
                         const QString& summary, 
                         const QString& complianceText, 

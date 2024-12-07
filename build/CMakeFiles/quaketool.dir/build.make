@@ -202,6 +202,62 @@ CMakeFiles/quaketool.dir/pops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quaketool.dir/pops.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pops.cpp" -o CMakeFiles/quaketool.dir/pops.cpp.s
 
+CMakeFiles/quaketool.dir/fluorinated.cpp.o: CMakeFiles/quaketool.dir/flags.make
+CMakeFiles/quaketool.dir/fluorinated.cpp.o: /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/fluorinated.cpp
+CMakeFiles/quaketool.dir/fluorinated.cpp.o: CMakeFiles/quaketool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/quaketool.dir/fluorinated.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quaketool.dir/fluorinated.cpp.o -MF CMakeFiles/quaketool.dir/fluorinated.cpp.o.d -o CMakeFiles/quaketool.dir/fluorinated.cpp.o -c "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/fluorinated.cpp"
+
+CMakeFiles/quaketool.dir/fluorinated.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quaketool.dir/fluorinated.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/fluorinated.cpp" > CMakeFiles/quaketool.dir/fluorinated.cpp.i
+
+CMakeFiles/quaketool.dir/fluorinated.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quaketool.dir/fluorinated.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/fluorinated.cpp" -o CMakeFiles/quaketool.dir/fluorinated.cpp.s
+
+CMakeFiles/quaketool.dir/pollutantOverview.cpp.o: CMakeFiles/quaketool.dir/flags.make
+CMakeFiles/quaketool.dir/pollutantOverview.cpp.o: /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/pollutantOverview.cpp
+CMakeFiles/quaketool.dir/pollutantOverview.cpp.o: CMakeFiles/quaketool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/quaketool.dir/pollutantOverview.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quaketool.dir/pollutantOverview.cpp.o -MF CMakeFiles/quaketool.dir/pollutantOverview.cpp.o.d -o CMakeFiles/quaketool.dir/pollutantOverview.cpp.o -c "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pollutantOverview.cpp"
+
+CMakeFiles/quaketool.dir/pollutantOverview.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quaketool.dir/pollutantOverview.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pollutantOverview.cpp" > CMakeFiles/quaketool.dir/pollutantOverview.cpp.i
+
+CMakeFiles/quaketool.dir/pollutantOverview.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quaketool.dir/pollutantOverview.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pollutantOverview.cpp" -o CMakeFiles/quaketool.dir/pollutantOverview.cpp.s
+
+CMakeFiles/quaketool.dir/envlitter.cpp.o: CMakeFiles/quaketool.dir/flags.make
+CMakeFiles/quaketool.dir/envlitter.cpp.o: /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/envlitter.cpp
+CMakeFiles/quaketool.dir/envlitter.cpp.o: CMakeFiles/quaketool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/quaketool.dir/envlitter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quaketool.dir/envlitter.cpp.o -MF CMakeFiles/quaketool.dir/envlitter.cpp.o.d -o CMakeFiles/quaketool.dir/envlitter.cpp.o -c "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/envlitter.cpp"
+
+CMakeFiles/quaketool.dir/envlitter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quaketool.dir/envlitter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/envlitter.cpp" > CMakeFiles/quaketool.dir/envlitter.cpp.i
+
+CMakeFiles/quaketool.dir/envlitter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quaketool.dir/envlitter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/envlitter.cpp" -o CMakeFiles/quaketool.dir/envlitter.cpp.s
+
+CMakeFiles/quaketool.dir/compliance.cpp.o: CMakeFiles/quaketool.dir/flags.make
+CMakeFiles/quaketool.dir/compliance.cpp.o: /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/compliance.cpp
+CMakeFiles/quaketool.dir/compliance.cpp.o: CMakeFiles/quaketool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/quaketool.dir/compliance.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quaketool.dir/compliance.cpp.o -MF CMakeFiles/quaketool.dir/compliance.cpp.o.d -o CMakeFiles/quaketool.dir/compliance.cpp.o -c "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/compliance.cpp"
+
+CMakeFiles/quaketool.dir/compliance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quaketool.dir/compliance.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/compliance.cpp" > CMakeFiles/quaketool.dir/compliance.cpp.i
+
+CMakeFiles/quaketool.dir/compliance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quaketool.dir/compliance.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/compliance.cpp" -o CMakeFiles/quaketool.dir/compliance.cpp.s
+
 # Object files for target quaketool
 quaketool_OBJECTS = \
 "CMakeFiles/quaketool.dir/quaketool_autogen/mocs_compilation.cpp.o" \
@@ -212,7 +268,11 @@ quaketool_OBJECTS = \
 "CMakeFiles/quaketool.dir/window.cpp.o" \
 "CMakeFiles/quaketool.dir/stats.cpp.o" \
 "CMakeFiles/quaketool.dir/dashboard.cpp.o" \
-"CMakeFiles/quaketool.dir/pops.cpp.o"
+"CMakeFiles/quaketool.dir/pops.cpp.o" \
+"CMakeFiles/quaketool.dir/fluorinated.cpp.o" \
+"CMakeFiles/quaketool.dir/pollutantOverview.cpp.o" \
+"CMakeFiles/quaketool.dir/envlitter.cpp.o" \
+"CMakeFiles/quaketool.dir/compliance.cpp.o"
 
 # External object files for target quaketool
 quaketool_EXTERNAL_OBJECTS =
@@ -226,6 +286,10 @@ quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/window.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/stats.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/dashboard.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/pops.cpp.o
+quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/fluorinated.cpp.o
+quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/pollutantOverview.cpp.o
+quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/envlitter.cpp.o
+quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/compliance.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/build.make
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/QtCharts
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
@@ -234,7 +298,7 @@ quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtOpenG
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/QtGui
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/QtCore
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable quaketool.app/Contents/MacOS/quaketool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable quaketool.app/Contents/MacOS/quaketool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quaketool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

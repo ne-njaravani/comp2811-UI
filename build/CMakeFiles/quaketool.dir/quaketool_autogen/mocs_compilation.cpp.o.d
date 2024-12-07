@@ -1,7 +1,7 @@
 CMakeFiles/quaketool.dir/quaketool_autogen/mocs_compilation.cpp.o: \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/mocs_compilation.cpp \
-  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/moc_dashboard.cpp \
-  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/../../../solution/dashboard.hpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/moc_compliance.cpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/../../../solution/compliance.hpp \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QWidget \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -1118,29 +1118,60 @@ CMakeFiles/quaketool.dir/quaketool_autogen/mocs_compilation.cpp.o: \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qbitmap.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QPushButton \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QTableView \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qtableview.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractitemview.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qitemselectionmodel.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qvalidator.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qslider.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qstyle.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QStandardItemModel \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qstandarditemmodel.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QPushButton \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QComboBox \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qcombobox.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qpicture.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qtextdocument.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QStyledItemDelegate \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qstyleditemdelegate.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QPainter \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qpainter.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qtextoption.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QSet \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QStringList \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qtextformat.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/moc_dashboard.cpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/../../../solution/dashboard.hpp \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QGridLayout \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QColor \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QLineEdit \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qlineedit.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qtextcursor.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qtextformat.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qpen.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QFileDialog \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qfiledialog.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qdir.h \
@@ -1194,36 +1225,13 @@ CMakeFiles/quaketool.dir/quaketool_autogen/mocs_compilation.cpp.o: \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qdatetime.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qcalendar.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qtimezone.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qdialog.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QDebug \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QList \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QString \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
-  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/moc_pops.cpp \
-  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/../../../solution/pops.hpp \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QTableView \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qtableview.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractitemview.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qitemselectionmodel.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qvalidator.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qregularexpression.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qslider.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qstyle.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QStandardItemModel \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qstandarditemmodel.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QComboBox \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qcombobox.h \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/moc_envlitter.cpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/../../../solution/envlitter.hpp \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QChartView \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qchartview.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QAbstractAxis \
@@ -1273,17 +1281,34 @@ CMakeFiles/quaketool.dir/quaketool_autogen/mocs_compilation.cpp.o: \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QMargins \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QGraphicsView \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qgraphicsview.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qpainter.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qscrollarea.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qgraphicsscene.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QBarCategoryAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qbarcategoryaxis.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QValueAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qvalueaxis.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QDateTimeAxis \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qdatetimeaxis.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QLineSeries \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qlineseries.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QXYSeries \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qxyseries.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QImage \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QStyledItemDelegate \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qstyleditemdelegate.h \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/QPainter \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QScrollArea \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QDateTime \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QMap \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/moc_fluorinated.cpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/../../../solution/fluorinated.hpp \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QScatterSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qscatterseries.h \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/moc_pollutantOverview.cpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/../../../solution/pollutantOverview.hpp \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QBarSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qbarseries.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/QAbstractBarSeries \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qabstractbarseries.h \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/moc_pops.cpp \
+  /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/../../../solution/pops.hpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/moc_window.cpp \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/build/quaketool_autogen/EWIEGA46WW/../../../solution/window.hpp \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \

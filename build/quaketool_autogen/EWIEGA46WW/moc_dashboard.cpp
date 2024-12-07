@@ -41,9 +41,8 @@ constexpr auto qt_meta_stringdata_CLASSDashboardENDCLASS = QtMocHelpers::stringD
     "",
     "navigateToPOPs",
     "navigateToEnvironmentalLitter",
-    "navigateToFluorinatedCompounds",
+    "navigateToFluorinatedPage",
     "navigateToComplianceDashboard",
-    "navigateToGeographicalHotspots",
     "customDatabaseLoaded",
     "filePath"
 );
@@ -58,21 +57,20 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSDashboardENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       6,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       7,       // signalCount
+       6,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   56,    2, 0x06,    1 /* Public */,
-       3,    0,   57,    2, 0x06,    2 /* Public */,
-       4,    0,   58,    2, 0x06,    3 /* Public */,
-       5,    0,   59,    2, 0x06,    4 /* Public */,
-       6,    0,   60,    2, 0x06,    5 /* Public */,
-       7,    0,   61,    2, 0x06,    6 /* Public */,
-       8,    1,   62,    2, 0x06,    7 /* Public */,
+       1,    0,   50,    2, 0x06,    1 /* Public */,
+       3,    0,   51,    2, 0x06,    2 /* Public */,
+       4,    0,   52,    2, 0x06,    3 /* Public */,
+       5,    0,   53,    2, 0x06,    4 /* Public */,
+       6,    0,   54,    2, 0x06,    5 /* Public */,
+       7,    1,   55,    2, 0x06,    6 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -80,8 +78,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSDashboardENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,    9,
+    QMetaType::Void, QMetaType::QString,    8,
 
        0        // eod
 };
@@ -101,11 +98,9 @@ Q_CONSTINIT const QMetaObject Dashboard::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'navigateToEnvironmentalLitter'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'navigateToFluorinatedCompounds'
+        // method 'navigateToFluorinatedPage'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'navigateToComplianceDashboard'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'navigateToGeographicalHotspots'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'customDatabaseLoaded'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
@@ -123,10 +118,9 @@ void Dashboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 0: _t->navigateToPollutantOverview(); break;
         case 1: _t->navigateToPOPs(); break;
         case 2: _t->navigateToEnvironmentalLitter(); break;
-        case 3: _t->navigateToFluorinatedCompounds(); break;
+        case 3: _t->navigateToFluorinatedPage(); break;
         case 4: _t->navigateToComplianceDashboard(); break;
-        case 5: _t->navigateToGeographicalHotspots(); break;
-        case 6: _t->customDatabaseLoaded((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 5: _t->customDatabaseLoaded((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -154,7 +148,7 @@ void Dashboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         }
         {
             using _t = void (Dashboard::*)();
-            if (_t _q_method = &Dashboard::navigateToFluorinatedCompounds; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Dashboard::navigateToFluorinatedPage; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 3;
                 return;
             }
@@ -167,16 +161,9 @@ void Dashboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
             }
         }
         {
-            using _t = void (Dashboard::*)();
-            if (_t _q_method = &Dashboard::navigateToGeographicalHotspots; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 5;
-                return;
-            }
-        }
-        {
             using _t = void (Dashboard::*)(const QString & );
             if (_t _q_method = &Dashboard::customDatabaseLoaded; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 6;
+                *result = 5;
                 return;
             }
         }
@@ -202,13 +189,13 @@ int Dashboard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 6;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 6)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 7;
+        _id -= 6;
     }
     return _id;
 }
@@ -232,7 +219,7 @@ void Dashboard::navigateToEnvironmentalLitter()
 }
 
 // SIGNAL 3
-void Dashboard::navigateToFluorinatedCompounds()
+void Dashboard::navigateToFluorinatedPage()
 {
     QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
 }
@@ -244,15 +231,9 @@ void Dashboard::navigateToComplianceDashboard()
 }
 
 // SIGNAL 5
-void Dashboard::navigateToGeographicalHotspots()
-{
-    QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
-}
-
-// SIGNAL 6
 void Dashboard::customDatabaseLoaded(const QString & _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 6, _a);
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
 }
 QT_WARNING_POP

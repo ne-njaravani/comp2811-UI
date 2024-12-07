@@ -451,6 +451,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/compliance.hpp",
+			"MU",
+			"EWIEGA46WW/moc_compliance.cpp",
+			null
+		],
+		[
 			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/dashboard.hpp",
 			"MU",
 			"EWIEGA46WW/moc_dashboard.cpp",
@@ -463,9 +469,27 @@
 			null
 		],
 		[
+			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/envlitter.hpp",
+			"MU",
+			"EWIEGA46WW/moc_envlitter.cpp",
+			null
+		],
+		[
+			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/fluorinated.hpp",
+			"MU",
+			"EWIEGA46WW/moc_fluorinated.cpp",
+			null
+		],
+		[
 			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/model.hpp",
 			"MU",
 			"EWIEGA46WW/moc_model.cpp",
+			null
+		],
+		[
+			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pollutantOverview.hpp",
+			"MU",
+			"EWIEGA46WW/moc_pollutantOverview.cpp",
 			null
 		],
 		[
@@ -567,6 +591,11 @@
 	"SOURCES" : 
 	[
 		[
+			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/compliance.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/dashboard.cpp",
 			"MU",
 			null
@@ -577,12 +606,27 @@
 			null
 		],
 		[
+			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/envlitter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/fluorinated.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/main.cpp",
 			"MU",
 			null
 		],
 		[
 			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/model.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/pollutantOverview.cpp",
 			"MU",
 			null
 		],

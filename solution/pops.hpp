@@ -18,32 +18,36 @@ class POPsPage : public QWidget
     Q_OBJECT
 
 public:
+    // Constructor
     explicit POPsPage(QWidget* parent = nullptr);
 
 signals:
+    // Signal to navigate back to the dashboard
     void navigateToDashboard();
 
 private:
-    QVBoxLayout* layout;                   // Main layout for the POPs page
-    QPushButton* backButton;               // Button to return to the Dashboard
-    QTableView* tableView;                 // Table view for displaying POPs data
-    QLineEdit* searchBox;                  // Search box for filtering table data
-    QStandardItemModel* dataModel;         // Model for managing table data
-    QComboBox* samplingPointDropdown;      // Dropdown for selecting sampling points
-    QComboBox* dateDropdown;               // Dropdown for selecting dates
-    QChartView* chartView;                 // Chart view for displaying data
+    // Widgets for the page
+    QVBoxLayout* layout;                 
+    QPushButton* backButton;              
+    QTableView* tableView;               
+    QLineEdit* searchBox;                 
+    QStandardItemModel* dataModel;       
+    QComboBox* samplingPointDropdown;      
+    QComboBox* dateDropdown;               
+    QChartView* chartView;                
 
-    void loadData(const QString& filePath); // Load data from a CSV file
-    void populateDropdown();                // Populate the dropdown with sampling points
-    void createChartForPoint(const QString& point);        // Create a chart for the selected sampling point
-    QString getPollutantInfo(const QString& pollutant) const; // Get information about a pollutant
-    QStringList parseCSVLine(const QString& line) const;   // Parse a line from a CSV file
+    void loadData(const QString& filePath); 
+    void populateDropdown();               
+    void createChartForPoint(const QString& point);  
+    QString getPollutantInfo(const QString& pollutant) const; 
+    QStringList parseCSVLine(const QString& line) const;  
 
     // Inner class for compliance delegate
     class ComplianceDelegate : public QStyledItemDelegate {
     public:
         explicit ComplianceDelegate(QObject* parent = nullptr) : QStyledItemDelegate(parent) {}
 
+        // Paint method to color the cell based on compliance status
         void paint(QPainter* painter, const QStyleOptionViewItem& option, const QModelIndex& index) const override {
             QString compliance = index.data().toString();
             QColor backgroundColor;

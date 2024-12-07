@@ -28,17 +28,15 @@ Dashboard::Dashboard(QWidget* parent) : QWidget(parent)
     // Define data for each card
     cardsData = {
         {tr("Pollutant Overview"), tr("Overview of key pollutants such as 1,1,2-Trichloroethane and Chloroform, offering trends over time and compliance indicators."),
-         30, 300, [this]() { emit navigateToPollutantOverview(); }},
+         741, 832, [this]() { emit navigateToPollutantOverview(); }},
         {tr("Persistent Organic Pollutants (POPs)"), tr("Data on long-lasting organic pollutants like PCBs, showing trends over time and compliance with UK/EU safety standards."),
          395, 466, [this]() { emit navigateToPOPs(); }},
         {tr("Environmental Litter Indicators"), tr("Summarizes physical litter trends, including comparisons across locations and water body types, with compliance indicators for EU standards."),
-         50, 200, [this]() { emit navigateToEnvironmentalLitter(); }},
-        {tr("Fluorinated Compounds"), tr("Displays data on PFAS and other fluorinated compounds, highlighting their distribution and compliance with safety thresholds."),
-         70, 300, [this]() { emit navigateToFluorinatedCompounds(); }},
+         643, 812, [this]() { emit navigateToEnvironmentalLitter(); }},
+        {tr("Fluorinated Compounds"), tr("Displays data on fluorinated compounds, highlighting their distribution and compliance with safety thresholds."),
+         7331, 7349, [this]() { emit navigateToFluorinatedPage(); }},
         {tr("Compliance Dashboard"), tr("Provides a regulatory compliance summary across all pollutants, with filters to view non-compliant areas and trends."),
-         100, 150, [this]() { emit navigateToComplianceDashboard(); }},
-        {tr("Geographical Hotspots"), tr("Highlights pollution hotspots on a map, showing sampling points with high pollutant levels and compliance status."),
-         10, 50, [this]() { emit navigateToGeographicalHotspots(); }},
+         18240, 148543, [this]() { emit navigateToComplianceDashboard(); }},
     };
 
     // Create cards dynamically
@@ -133,15 +131,23 @@ void Dashboard::createCards()
     int row = 0, col = 0;
     for (const auto& card : cardsData) {
         double compliancePercentage = (card.total > 0) ? (static_cast<double>(card.compliant) / card.total) * 100.0 : 0.0;
+        compliancePercentage = std::round(compliancePercentage * 10.0) / 10.0;
+
+        // Get the compliance color
         QColor complianceColor = getComplianceColor(compliancePercentage);
 
+        // Create the card widget
         QWidget* cardWidget = createCard(
             card.title,
             card.summary,
-            QString(tr("%1 Compliant / %2 Total Pollutants")).arg(card.compliant).arg(card.total),
+            QString(tr("Compliant Pollutants: %1 / %2 (%3%)"))
+                .arg(card.compliant)
+                .arg(card.total)
+                .arg(compliancePercentage, 0, 'f', 1),
             complianceColor,
             card.onClick
         );
+
         cards.append(cardWidget);
 
         gridLayout->addWidget(cardWidget, row, col);

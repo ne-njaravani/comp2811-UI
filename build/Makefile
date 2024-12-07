@@ -155,6 +155,30 @@ quaketool_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_autogen.dir/build.make CMakeFiles/quaketool_autogen.dir/build
 .PHONY : quaketool_autogen/fast
 
+compliance.o: compliance.cpp.o
+.PHONY : compliance.o
+
+# target to build an object file
+compliance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/compliance.cpp.o
+.PHONY : compliance.cpp.o
+
+compliance.i: compliance.cpp.i
+.PHONY : compliance.i
+
+# target to preprocess a source file
+compliance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/compliance.cpp.i
+.PHONY : compliance.cpp.i
+
+compliance.s: compliance.cpp.s
+.PHONY : compliance.s
+
+# target to generate assembly for a file
+compliance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/compliance.cpp.s
+.PHONY : compliance.cpp.s
+
 dashboard.o: dashboard.cpp.o
 .PHONY : dashboard.o
 
@@ -203,6 +227,54 @@ dataset.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/dataset.cpp.s
 .PHONY : dataset.cpp.s
 
+envlitter.o: envlitter.cpp.o
+.PHONY : envlitter.o
+
+# target to build an object file
+envlitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/envlitter.cpp.o
+.PHONY : envlitter.cpp.o
+
+envlitter.i: envlitter.cpp.i
+.PHONY : envlitter.i
+
+# target to preprocess a source file
+envlitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/envlitter.cpp.i
+.PHONY : envlitter.cpp.i
+
+envlitter.s: envlitter.cpp.s
+.PHONY : envlitter.s
+
+# target to generate assembly for a file
+envlitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/envlitter.cpp.s
+.PHONY : envlitter.cpp.s
+
+fluorinated.o: fluorinated.cpp.o
+.PHONY : fluorinated.o
+
+# target to build an object file
+fluorinated.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/fluorinated.cpp.o
+.PHONY : fluorinated.cpp.o
+
+fluorinated.i: fluorinated.cpp.i
+.PHONY : fluorinated.i
+
+# target to preprocess a source file
+fluorinated.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/fluorinated.cpp.i
+.PHONY : fluorinated.cpp.i
+
+fluorinated.s: fluorinated.cpp.s
+.PHONY : fluorinated.s
+
+# target to generate assembly for a file
+fluorinated.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/fluorinated.cpp.s
+.PHONY : fluorinated.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -250,6 +322,30 @@ model.s: model.cpp.s
 model.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/model.cpp.s
 .PHONY : model.cpp.s
+
+pollutantOverview.o: pollutantOverview.cpp.o
+.PHONY : pollutantOverview.o
+
+# target to build an object file
+pollutantOverview.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/pollutantOverview.cpp.o
+.PHONY : pollutantOverview.cpp.o
+
+pollutantOverview.i: pollutantOverview.cpp.i
+.PHONY : pollutantOverview.i
+
+# target to preprocess a source file
+pollutantOverview.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/pollutantOverview.cpp.i
+.PHONY : pollutantOverview.cpp.i
+
+pollutantOverview.s: pollutantOverview.cpp.s
+.PHONY : pollutantOverview.s
+
+# target to generate assembly for a file
+pollutantOverview.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/pollutantOverview.cpp.s
+.PHONY : pollutantOverview.cpp.s
 
 pops.o: pops.cpp.o
 .PHONY : pops.o
@@ -382,18 +478,30 @@ help:
 	@echo "... quaketool_autogen"
 	@echo "... quaketool_autogen_timestamp_deps"
 	@echo "... quaketool"
+	@echo "... compliance.o"
+	@echo "... compliance.i"
+	@echo "... compliance.s"
 	@echo "... dashboard.o"
 	@echo "... dashboard.i"
 	@echo "... dashboard.s"
 	@echo "... dataset.o"
 	@echo "... dataset.i"
 	@echo "... dataset.s"
+	@echo "... envlitter.o"
+	@echo "... envlitter.i"
+	@echo "... envlitter.s"
+	@echo "... fluorinated.o"
+	@echo "... fluorinated.i"
+	@echo "... fluorinated.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... model.o"
 	@echo "... model.i"
 	@echo "... model.s"
+	@echo "... pollutantOverview.o"
+	@echo "... pollutantOverview.i"
+	@echo "... pollutantOverview.s"
 	@echo "... pops.o"
 	@echo "... pops.i"
 	@echo "... pops.s"
