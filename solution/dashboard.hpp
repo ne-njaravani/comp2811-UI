@@ -28,6 +28,8 @@ signals:
     void navigateToEnvironmentalLitter();
     void navigateToFluorinatedPage();
     void navigateToComplianceDashboard();
+    
+    // Signal to load custom database
     void customDatabaseLoaded(const QString& filePath);
 
 private:

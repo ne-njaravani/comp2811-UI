@@ -11,6 +11,7 @@
 #include <QPainter>
 #include <QSet>
 #include <QStringList>
+#include <QTextEdit>
 
 class ComplianceDashboardPage : public QWidget
 {
@@ -28,10 +29,13 @@ private:
     // Widgets for the page
     QVBoxLayout* mainLayout;
     QTableView* tableView;
-    QStandardItemModel* dataModel;
+    QStandardItemModel* dataModel; // Ensure this is correctly defined
     QComboBox* filterTypeDropdown;
     QComboBox* filterValueDropdown;
     QPushButton* backButton;
+    QTextEdit* infoPanel;
+
+    // Data containers for filtering
     QSet<QString> locations;
     QSet<QString> pollutants;
     QSet<QString> complianceStatuses;
@@ -40,6 +44,10 @@ private:
     void loadData(const QString& filePath);             
     void updateFilterOptions(const QString& filterType); 
     void applyFilter(const QString& filterValue);       
+
+    // Methods for dynamic info panel updates
+    void onRowSelected(const QModelIndex& index); // Add declaration
+    void updateInfoPanel(const QString& complianceInfo); // Add declaration
 
     // Parse a CSV line to split fields, considering commas inside quotes
     QStringList parseCSVLine(const QString& line) const; 

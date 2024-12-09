@@ -292,10 +292,21 @@ quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/envlitter.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/compliance.cpp.o
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/build.make
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Versions/A/QtCharts
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtQuickWidgets.framework/Versions/A/QtQuickWidgets
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtQuickControls2.framework/Versions/A/QtQuickControls2
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtLocation.framework/Versions/A/QtLocation
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtPositioningQuick.framework/Versions/A/QtPositioningQuick
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtPositioning.framework/Versions/A/QtPositioning
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtQuickShapes.framework/Versions/A/QtQuickShapes
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtQuick.framework/Versions/A/QtQuick
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Versions/A/QtGui
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtQmlModels.framework/Versions/A/QtQmlModels
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtQml.framework/Versions/A/QtQml
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtNetwork.framework/Versions/A/QtNetwork
+quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/libQt6QmlBuiltins.a
 quaketool.app/Contents/MacOS/quaketool: /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Versions/A/QtCore
 quaketool.app/Contents/MacOS/quaketool: CMakeFiles/quaketool.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable quaketool.app/Contents/MacOS/quaketool"

@@ -1,3 +1,5 @@
 # Hashes of file build rules.
+05b883fb3872c0d0544b8c609e89a5d2 .qt/qml_imports/quaketool_build.cmake
 40e38f0101dafe2e1170854f23fd9f86 CMakeFiles/quaketool_autogen
+40e38f0101dafe2e1170854f23fd9f86 CMakeFiles/quaketool_qmlimportscan
 f3e9836d9865323ad3377fb9a9c020ac quaketool_autogen/timestamp

@@ -1679,4 +1679,5 @@ CMakeFiles/quaketool.dir/main.cpp.o: \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCharts.framework/Headers/qdatetimeaxis.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QScrollArea \
   /Users/Sultan/Desktop/User\ Interfaces/Github\ Repository/comp2811-UI/solution/compliance.hpp \
-  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QSet
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QSet \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QTextEdit

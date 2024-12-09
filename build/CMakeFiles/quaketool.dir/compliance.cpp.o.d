@@ -1162,6 +1162,10 @@ CMakeFiles/quaketool.dir/compliance.cpp.o: \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qpen.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QSet \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QStringList \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/QTextEdit \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Headers/qtextedit.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtGui.framework/Headers/qtextformat.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/QFile \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qfile.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtCore.framework/Headers/qfiledevice.h \

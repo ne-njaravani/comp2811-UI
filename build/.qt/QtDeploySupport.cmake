@@ -60,6 +60,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 set(__qt_deploy_support_files
     "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/.qt/QtDeployTargets.cmake"
     "/Users/Sultan/Qt/6.7.3/macos/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "/Users/Sultan/Qt/6.7.3/macos/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")

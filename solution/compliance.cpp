@@ -16,7 +16,7 @@ ComplianceDashboardPage::ComplianceDashboardPage(QWidget* parent) : QWidget(pare
     title->setAlignment(Qt::AlignCenter);
 
     // Back to Dashboard Button
-    QPushButton* backButton = new QPushButton("Back to Dashboard", this);
+    backButton = new QPushButton("Back to Dashboard", this);
     connect(backButton, &QPushButton::clicked, this, &ComplianceDashboardPage::navigateToDashboard);
 
     // Dropdown for filters
@@ -35,12 +35,22 @@ ComplianceDashboardPage::ComplianceDashboardPage(QWidget* parent) : QWidget(pare
     tableView->setModel(dataModel);
     tableView->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
     tableView->setItemDelegateForColumn(5, new ComplianceDelegate(this));
+    
+    // Connect table row selection to update info panel
+    connect(tableView->selectionModel(), &QItemSelectionModel::currentRowChanged, 
+            this, &ComplianceDashboardPage::onRowSelected);
+
+    // Info Panel for non-compliance details
+    infoPanel = new QTextEdit(this);
+    infoPanel->setReadOnly(true); // Make it read-only to avoid user edits
+    infoPanel->setPlaceholderText("Select a row to view detailed information about compliance.");
 
     // Add widgets to the layout
     mainLayout->addWidget(title);
     mainLayout->addWidget(filterTypeDropdown);
     mainLayout->addWidget(filterValueDropdown);
     mainLayout->addWidget(tableView);
+    mainLayout->addWidget(infoPanel);
     mainLayout->addWidget(backButton);
 
     // Load data
@@ -163,4 +173,30 @@ void ComplianceDashboardPage::applyFilter(const QString& filterValue)
         }
         tableView->setRowHidden(i, !matches);
     }
+}
+
+void ComplianceDashboardPage::onRowSelected(const QModelIndex& index)
+{
+    if (!index.isValid())
+        return;
+
+    QString location = dataModel->item(index.row(), 0)->text();
+    QString date = dataModel->item(index.row(), 1)->text();
+    QString pollutant = dataModel->item(index.row(), 2)->text();
+    QString compliance = dataModel->item(index.row(), 5)->text();
+
+    QString details = QString("Location: %1\nDate: %2\nPollutant: %3\nCompliance: %4")
+                        .arg(location, date, pollutant, compliance);
+
+    if (compliance == "Non-Compliant") {
+        details.append("\nPossible Causes: Elevated pollutant levels detected.\n"
+                       "Historical Trend: Site has consistently exceeded safe levels.");
+    }
+
+    updateInfoPanel(details);
+}
+
+void ComplianceDashboardPage::updateInfoPanel(const QString& complianceInfo)
+{
+    infoPanel->setText(complianceInfo);
 }

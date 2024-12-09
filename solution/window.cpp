@@ -45,35 +45,35 @@ void QuakeWindow::createMainWidget()
     });
     pages->addWidget(dashboard);
 
-    // Create and add the Pollutant Overview page
+    // Pollutant Overview page
     pollutantOverviewPage = new PollutantOverviewPage();
     connect(pollutantOverviewPage, &PollutantOverviewPage::navigateToDashboard, [this]() {
         pages->setCurrentIndex(0); // Switch back to Dashboard
     });
     pages->addWidget(pollutantOverviewPage);
 
-    // Create and add the POPs page
+    // POPs page
     popsPage = new POPsPage();
     connect(popsPage, &POPsPage::navigateToDashboard, [this]() {
         pages->setCurrentIndex(0); // Switch back to Dashboard
     });
     pages->addWidget(popsPage);
 
-    // Placeholder for Environmental Litter Indicators page
+    // Environmental Litter Indicators page
     litterIndicatorsPage = new EnvironmentalLitterIndicatorsPage();
     connect(litterIndicatorsPage, &EnvironmentalLitterIndicatorsPage::navigateToDashboard, [this]() {
         pages->setCurrentIndex(0); // Switch back to Dashboard
     });
     pages->addWidget(litterIndicatorsPage);
 
-    // Create and add the Fluorinated Compounds page
+    // Fluorinated Compounds page
     fluorinatedPage = new FluorinatedPage();
     connect(fluorinatedPage, &FluorinatedPage::navigateToDashboard, [this]() {
         pages->setCurrentIndex(0); // Switch back to Dashboard
     });
     pages->addWidget(fluorinatedPage);
 
-    // Placeholder for Compliance Dashboard page
+    // Compliance Dashboard page
     complianceDashboardPage = new ComplianceDashboardPage();
     connect(complianceDashboardPage, &ComplianceDashboardPage::navigateToDashboard, [this]() {
         pages->setCurrentIndex(0); // Switch back to Dashboard

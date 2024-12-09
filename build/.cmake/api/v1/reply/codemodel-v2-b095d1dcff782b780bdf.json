@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -43,7 +45,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "quaketool::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-quaketool-Debug-332737dbc503fba3dd20.json",
+					"jsonFile" : "target-quaketool-Debug-d4d7ff9875a89a42f7fa.json",
 					"name" : "quaketool",
 					"projectIndex" : 0
 				},
@@ -57,8 +59,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "quaketool_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-quaketool_autogen_timestamp_deps-Debug-7737b26eda31447a8a5a.json",
+					"jsonFile" : "target-quaketool_autogen_timestamp_deps-Debug-f4c852f7ca4625d96c04.json",
 					"name" : "quaketool_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quaketool_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quaketool_qmlimportscan-Debug-ba8da3d761582f7667b5.json",
+					"name" : "quaketool_qmlimportscan",
 					"projectIndex" : 0
 				}
 			]

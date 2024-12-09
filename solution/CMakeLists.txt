@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Find and link Qt components
-find_package(Qt6 REQUIRED COMPONENTS Widgets Charts)
+find_package(Qt6 REQUIRED COMPONENTS Widgets Charts Core Quick QuickWidgets QuickControls2 Location Positioning REQUIRED)
 qt_standard_project_setup()
 
 # Define the executable and sources
@@ -26,7 +26,7 @@ qt_add_executable(quaketool
 )
 
 # Link Qt libraries
-target_link_libraries(quaketool PRIVATE Qt6::Widgets Qt6::Charts)
+target_link_libraries(quaketool PRIVATE Qt6::Widgets Qt6::Charts Qt6::Core Qt6::Quick Qt6::QuickWidgets Qt6::QuickControls2 Qt6::Location Qt6::Positioning)
 
 set_target_properties(quaketool PROPERTIES
     WIN32_EXECUTABLE ON

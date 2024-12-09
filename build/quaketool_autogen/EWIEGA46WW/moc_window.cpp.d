@@ -1189,6 +1189,7 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QStackedWidget \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QStyledItemDelegate \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QTableView \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QTextEdit \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
@@ -1225,6 +1226,7 @@
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabbar.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtableview.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtextedit.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/Sultan/Qt/6.7.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \

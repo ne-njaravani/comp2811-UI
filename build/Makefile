@@ -130,6 +130,19 @@ quaketool/fast:
 .PHONY : quaketool/fast
 
 #=============================================================================
+# Target rules for targets named quaketool_qmlimportscan
+
+# Build rule for target.
+quaketool_qmlimportscan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quaketool_qmlimportscan
+.PHONY : quaketool_qmlimportscan
+
+# fast build rule for target.
+quaketool_qmlimportscan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_qmlimportscan.dir/build.make CMakeFiles/quaketool_qmlimportscan.dir/build
+.PHONY : quaketool_qmlimportscan/fast
+
+#=============================================================================
 # Target rules for targets named quaketool_autogen_timestamp_deps
 
 # Build rule for target.
@@ -477,6 +490,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... quaketool_autogen"
 	@echo "... quaketool_autogen_timestamp_deps"
+	@echo "... quaketool_qmlimportscan"
 	@echo "... quaketool"
 	@echo "... compliance.o"
 	@echo "... compliance.i"
