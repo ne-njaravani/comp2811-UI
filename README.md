@@ -1,77 +1,51 @@
-# Project Title: COMP2811 UI Final Project Coursework
 
-## Overview
-This application is designed to monitor and analyse water quality data, with a focus on pollutant tracking and compliance with safety standards. It was developed using **C++/Qt6** with a modular and user-friendly interface that adapts to changes in locale for basic internationalisation.
+# Water Quality Monitoring Application
 
-## Getting Started
+This project is a Water Quality Monitoring application made for Qt6 (built with Qt6.7.3), C++, and CMake. It allows users to interact with water quality data, load CSV files, and visualize pollutant compliance trends through various dashboards.
 
-### Prerequisites
-- **C++17** or higher
-- **Qt6** libraries, including:
-    - **QtWidgets**
-    - **QtCharts**
-    - **QtWebView** (optional, for web content)
+## Requirements
 
-### Installation and Setup
-1. **Extract the Starter Code**: 
- - Unzip the provided starter code package to a working directory.
-2. **Build the Project**:
-    - Create a `build` directory and run `cmake`:
-      ```bash
-      mkdir build && cd build
-      cmake ..
-      ```
-    - Compile the project:
-      ```bash
-      make
-      ```
-    - Run the application:
-      ```bash
-      ./[application-executable-name]
-      ```
+- Qt6 (make sure to install it and provide the correct path to CMake)
+- CMake 3.10+ 
+- A C++ compiler (e.g., GCC or Clang)
 
-3. **Data Setup**:
-    - Place your CSV dataset in the specified directory (`/data` folder).
-    - Ensure that the application has access to the data file, and adjust file paths as necessary.
+## Setup Instructions
 
-## Application Structure
+1. **Clone the repository**:
 
-### Main Components
-- **Dashboard**: Provides an overview of the application’s main pages and core functionality.
-- **Data Page**: Displays pollutant data in a table format, allowing us to browse relevant fields. Utilises the model/view architecture from the starter code.
-- **Analysis Pages**:
-    - **Pollutant Trends**: Visualises changes in pollutant levels over time.
-    - **Safety Compliance**: Displays alerts for pollutant levels that exceed recommended limits.
-    - **Geographical Hotspots**: Provides a map view or heat map of sampling points.
-    - **Summary Statistics**: Calculates and displays averages, maximums, minimums, and other summary data.
+   git clone <repository-url>
+   cd comp2811-UI
 
-## Key Features
-- **Internationalisation**: The app supports language changes based on system locale settings.
-- **Modular UI**: Using a "card" approach, each data type or control is grouped logically within the interface.
-- **Tooltips**: Hovering over elements displays additional context, improving usability.
+2. **Install Qt6**:
+   Ensure that Qt6 is installed on your system. You can download it from [Qt's official website](https://www.qt.io/download) or use a package manager (or use the Qt Extension of VSCode).
 
-## Design Choices
-- **Model/View Architecture**: Chosen for flexibility in data handling and to separate data presentation from underlying storage.
-- **Data Visualisation**: Includes basic charts and compliance indicators to ensure intuitive data interpretation.
-- **"Card" Layout**: The UI is modularised into “cards,” each focused on a specific data group or control area.
+3. **Configure the build environment**:
+   Navigate to the root folder of the project and run the following command to configure the project using CMake:
 
-## Included Files
-- **Source Files**: Core source files such as `main.cpp`, `dataset.cpp`, `model.cpp`, etc.
-- **Consent and Participant Information Sheet (PIS)**: Blank templates for ethical compliance, as required in evaluations.
-- **COMP2811_CW3_Requirements** Detailed requirements and expectations for the project.
-- **COMP2811 Feedback Fruits Tasks Overview**: List of required Feedback Fruits tasks
-## Known Issues
-- List any known bugs or limitations here. This may include compatibility issues, unsupported data formats, etc.
+   cmake -DCMAKE_PREFIX_PATH=<path-to-qt6> -S . -B build
 
-## Future Development
-- Briefly describe potential features, optimisations, or additional datasets that could be integrated in future versions.
+   Replace `<path-to-qt6>` with the path where Qt6 is installed.
 
-## Acknowledgments
-- Acknowledge any sources, datasets, or resources that contributed to this project.
-- I would like to thank Nick Efford for all his work on this module.
-- Samson Fabiyi and Danyang Zheng for their input and management of XJCO2811 at SWJTU.
+4. **Build the project**:
+   After configuration, you can build the project by running:
 
-## Contact
-For questions or collaboration inquiries, contact:
-- **[Julian Brooks]** - [j.brooks2@leeds.ac.uk]
-- **Module:** COMP2811 - User Interfaces - University of Leeds
+   cmake --build build
+
+5. **Run the application**:
+   After building the project, you can run the application using:
+
+   ./build/watertool
+
+Note: If using VSCode, edit the settings.json file in the .vscode folder and run using the extension.
+
+## Features
+
+- **CSV File Upload**: Allows users to upload a custom CSV file containing water quality data.
+- **Dashboard**: Displays various pollutants and their compliance status.
+- **Dynamic Search**: Filters cards based on text input.
+- **Navigation**: Navigate to different data views like Pollutant Overview, Compliance Dashboard, and more.
+- **Responsive Design**: The application layout adjusts to the screen size, ensuring all data fits.
+
+## License
+
+This project is a coursework for a university module, therefore, it is not made with the intention of making a profit.

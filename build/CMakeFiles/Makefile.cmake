@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  ".qt/info_plist/quaketool/Info.plist"
-  ".qt/qml_imports/quaketool_conf.cmake"
+  "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/CMakeLists.txt"
+  ".qt/info_plist/watertool/Info.plist"
+  ".qt/qml_imports/watertool_conf.cmake"
   "CMakeFiles/3.30.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeSystem.cmake"
-  "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution/CMakeLists.txt"
   "/Users/Sultan/Qt/6.7.3/macos/lib/cmake/Qt6/FindWrapAtomic.cmake"
   "/Users/Sultan/Qt/6.7.3/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake"
   "/Users/Sultan/Qt/6.7.3/macos/lib/cmake/Qt6/Qt6Config.cmake"
@@ -877,21 +877,21 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  ".qt/info_plist/quaketool/Info.plist"
-  "CMakeFiles/quaketool_autogen.dir/AutogenInfo.json"
+  ".qt/info_plist/watertool/Info.plist"
+  "CMakeFiles/watertool_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
-  ".qt/deploy_qml_imports/quaketool.cmake"
-  "quaketool.app/Contents/MacOS"
-  "quaketool.app/Contents/Info.plist"
-  "quaketool.app/Contents/Info.plist"
+  ".qt/deploy_qml_imports/watertool.cmake"
+  "watertool.app/Contents/MacOS"
+  "watertool.app/Contents/Info.plist"
+  "watertool.app/Contents/Info.plist"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/quaketool.dir/DependInfo.cmake"
-  "CMakeFiles/quaketool_qmlimportscan.dir/DependInfo.cmake"
-  "CMakeFiles/quaketool_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/quaketool_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/watertool.dir/DependInfo.cmake"
+  "CMakeFiles/watertool_qmlimportscan.dir/DependInfo.cmake"
+  "CMakeFiles/watertool_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "CMakeFiles/watertool_autogen.dir/DependInfo.cmake"
   )

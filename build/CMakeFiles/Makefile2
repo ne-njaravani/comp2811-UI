@@ -54,7 +54,7 @@ RM = /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution"
+CMAKE_SOURCE_DIR = "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build"
@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/quaketool.dir/all
+all: CMakeFiles/watertool.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,117 +71,117 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/quaketool.dir/clean
-clean: CMakeFiles/quaketool_qmlimportscan.dir/clean
-clean: CMakeFiles/quaketool_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/quaketool_autogen.dir/clean
+clean: CMakeFiles/watertool.dir/clean
+clean: CMakeFiles/watertool_qmlimportscan.dir/clean
+clean: CMakeFiles/watertool_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/watertool_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/quaketool.dir
+# Target rules for target CMakeFiles/watertool.dir
 
 # All Build rule for target.
-CMakeFiles/quaketool.dir/all: CMakeFiles/quaketool_qmlimportscan.dir/all
-CMakeFiles/quaketool.dir/all: CMakeFiles/quaketool_autogen_timestamp_deps.dir/all
-CMakeFiles/quaketool.dir/all: CMakeFiles/quaketool_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target quaketool"
-.PHONY : CMakeFiles/quaketool.dir/all
+CMakeFiles/watertool.dir/all: CMakeFiles/watertool_qmlimportscan.dir/all
+CMakeFiles/watertool.dir/all: CMakeFiles/watertool_autogen_timestamp_deps.dir/all
+CMakeFiles/watertool.dir/all: CMakeFiles/watertool_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target watertool"
+.PHONY : CMakeFiles/watertool.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/quaketool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" 17
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quaketool.dir/all
+CMakeFiles/watertool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/watertool.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" 0
-.PHONY : CMakeFiles/quaketool.dir/rule
+.PHONY : CMakeFiles/watertool.dir/rule
 
 # Convenience name for target.
-quaketool: CMakeFiles/quaketool.dir/rule
-.PHONY : quaketool
+watertool: CMakeFiles/watertool.dir/rule
+.PHONY : watertool
 
 # clean rule for target.
-CMakeFiles/quaketool.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool.dir/build.make CMakeFiles/quaketool.dir/clean
-.PHONY : CMakeFiles/quaketool.dir/clean
+CMakeFiles/watertool.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/clean
+.PHONY : CMakeFiles/watertool.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/quaketool_qmlimportscan.dir
+# Target rules for target CMakeFiles/watertool_qmlimportscan.dir
 
 # All Build rule for target.
-CMakeFiles/quaketool_qmlimportscan.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_qmlimportscan.dir/build.make CMakeFiles/quaketool_qmlimportscan.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_qmlimportscan.dir/build.make CMakeFiles/quaketool_qmlimportscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=17 "Built target quaketool_qmlimportscan"
-.PHONY : CMakeFiles/quaketool_qmlimportscan.dir/all
+CMakeFiles/watertool_qmlimportscan.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool_qmlimportscan.dir/build.make CMakeFiles/watertool_qmlimportscan.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool_qmlimportscan.dir/build.make CMakeFiles/watertool_qmlimportscan.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=13 "Built target watertool_qmlimportscan"
+.PHONY : CMakeFiles/watertool_qmlimportscan.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/quaketool_qmlimportscan.dir/rule: cmake_check_build_system
+CMakeFiles/watertool_qmlimportscan.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quaketool_qmlimportscan.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/watertool_qmlimportscan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" 0
-.PHONY : CMakeFiles/quaketool_qmlimportscan.dir/rule
+.PHONY : CMakeFiles/watertool_qmlimportscan.dir/rule
 
 # Convenience name for target.
-quaketool_qmlimportscan: CMakeFiles/quaketool_qmlimportscan.dir/rule
-.PHONY : quaketool_qmlimportscan
+watertool_qmlimportscan: CMakeFiles/watertool_qmlimportscan.dir/rule
+.PHONY : watertool_qmlimportscan
 
 # clean rule for target.
-CMakeFiles/quaketool_qmlimportscan.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_qmlimportscan.dir/build.make CMakeFiles/quaketool_qmlimportscan.dir/clean
-.PHONY : CMakeFiles/quaketool_qmlimportscan.dir/clean
+CMakeFiles/watertool_qmlimportscan.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool_qmlimportscan.dir/build.make CMakeFiles/watertool_qmlimportscan.dir/clean
+.PHONY : CMakeFiles/watertool_qmlimportscan.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/quaketool_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/watertool_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/quaketool_autogen_timestamp_deps.dir/all: CMakeFiles/quaketool_qmlimportscan.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_autogen_timestamp_deps.dir/build.make CMakeFiles/quaketool_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_autogen_timestamp_deps.dir/build.make CMakeFiles/quaketool_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num= "Built target quaketool_autogen_timestamp_deps"
-.PHONY : CMakeFiles/quaketool_autogen_timestamp_deps.dir/all
+CMakeFiles/watertool_autogen_timestamp_deps.dir/all: CMakeFiles/watertool_qmlimportscan.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool_autogen_timestamp_deps.dir/build.make CMakeFiles/watertool_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool_autogen_timestamp_deps.dir/build.make CMakeFiles/watertool_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num= "Built target watertool_autogen_timestamp_deps"
+.PHONY : CMakeFiles/watertool_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/quaketool_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/watertool_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quaketool_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/watertool_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" 0
-.PHONY : CMakeFiles/quaketool_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/watertool_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-quaketool_autogen_timestamp_deps: CMakeFiles/quaketool_autogen_timestamp_deps.dir/rule
-.PHONY : quaketool_autogen_timestamp_deps
+watertool_autogen_timestamp_deps: CMakeFiles/watertool_autogen_timestamp_deps.dir/rule
+.PHONY : watertool_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/quaketool_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_autogen_timestamp_deps.dir/build.make CMakeFiles/quaketool_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/quaketool_autogen_timestamp_deps.dir/clean
+CMakeFiles/watertool_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool_autogen_timestamp_deps.dir/build.make CMakeFiles/watertool_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/watertool_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/quaketool_autogen.dir
+# Target rules for target CMakeFiles/watertool_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/quaketool_autogen.dir/all: CMakeFiles/quaketool_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_autogen.dir/build.make CMakeFiles/quaketool_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_autogen.dir/build.make CMakeFiles/quaketool_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=16 "Built target quaketool_autogen"
-.PHONY : CMakeFiles/quaketool_autogen.dir/all
+CMakeFiles/watertool_autogen.dir/all: CMakeFiles/watertool_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool_autogen.dir/build.make CMakeFiles/watertool_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool_autogen.dir/build.make CMakeFiles/watertool_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=12 "Built target watertool_autogen"
+.PHONY : CMakeFiles/watertool_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/quaketool_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/watertool_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quaketool_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/watertool_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" 0
-.PHONY : CMakeFiles/quaketool_autogen.dir/rule
+.PHONY : CMakeFiles/watertool_autogen.dir/rule
 
 # Convenience name for target.
-quaketool_autogen: CMakeFiles/quaketool_autogen.dir/rule
-.PHONY : quaketool_autogen
+watertool_autogen: CMakeFiles/watertool_autogen.dir/rule
+.PHONY : watertool_autogen
 
 # clean rule for target.
-CMakeFiles/quaketool_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quaketool_autogen.dir/build.make CMakeFiles/quaketool_autogen.dir/clean
-.PHONY : CMakeFiles/quaketool_autogen.dir/clean
+CMakeFiles/watertool_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool_autogen.dir/build.make CMakeFiles/watertool_autogen.dir/clean
+.PHONY : CMakeFiles/watertool_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

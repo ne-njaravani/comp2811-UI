@@ -376,7 +376,7 @@ cwk2_BINARY_DIR:STATIC=/Users/Sultan/Desktop/User Interfaces/Github Repository/c
 cwk2_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-cwk2_SOURCE_DIR:STATIC=/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution
+cwk2_SOURCE_DIR:STATIC=/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI
 
 
 ########################
@@ -445,7 +445,7 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution
+CMAKE_HOME_DIRECTORY:INTERNAL=/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

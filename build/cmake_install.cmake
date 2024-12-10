@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/solution
+# Install script for directory: /Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
