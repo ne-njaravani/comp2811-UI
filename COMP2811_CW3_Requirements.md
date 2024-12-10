@@ -125,7 +125,7 @@ The **main dashboard** provides an at-a-glance summary of key pollutant data and
 
 Each of the following pages should include relevant data visualisations, rollover or pop-up content for additional details, and compliance indicators to help people understand pollutant safety status.
 
-1. **Pollutant Overview Page** - Eben
+1. **Pollutant Overview Page**
     - **Purpose**: Display detailed information on common pollutants like **1,1,2-Trichloroethane** and **Chloroform**.
     - **Key Elements**:
         - **Search Function**: Include a search bar to help people locate pollutants by name.
@@ -133,28 +133,28 @@ Each of the following pages should include relevant data visualisations, rollove
         - **Compliance Indicators**: Colour-code pollutant levels (e.g., green for safe, amber for caution, red for exceeding safe levels).
         - **Pop-Ups**: Provide additional information on pollutant risks, compliance status, and safety thresholds when people hover or click on data points.
 
-2. **Persistent Organic Pollutants (POPs) Page** - Sultan
+2. **Persistent Organic Pollutants (POPs) Page**
     - **Purpose**: Present data on **PCBs** and other persistent organic pollutants due to their long-lasting impact on the environment and health.
     - **Key Elements**:
         - **Data Trends**: Use line charts or similar visualisations to show POP levels at various sampling points over time.
         - **Rollover Pop-Ups**: Include additional information on health risks, monitoring importance, and safety levels.
         - **Compliance Colour-Coding**: Show compliance with UK/EU safety levels using colour-coded indicators.
 
-3. **Environmental Litter Indicators Page** - Aman
+3. **Environmental Litter Indicators Page**
     - **Purpose**: Summarise physical pollutants, such as **plastic litter** and other visible debris in water.
     - **Key Elements**:
         - **Litter Comparisons**: Provide comparisons of litter levels across different locations and water body types, using bar or pie charts.
         - **Compliance Indicators**: Show adherence to EU Bathing Water standards regarding litter presence.
         - **Interactive Elements**: Allow people to filter by location or type of litter to explore trends.
 
-4. **Fluorinated Compounds Page** - Anhmlpje
+4. **Fluorinated Compounds Page**
     - **Purpose**: Display levels of **PFAS** and other fluorinated compounds, which are monitored for their environmental persistence.
     - **Key Elements**:
         - **Map or Time-Series Visualisation**: Show distribution of fluorinated compounds across sites, using either a map view with colour-coded markers or time-series charts.
         - **Compliance Indicators**: Use traffic-light colours to indicate levels relative to safety thresholds (e.g., 0.1 µg/L for PFAS).
         - **Rollover Pop-Ups**: Provide contextual information on PFAS persistence and health/environmental implications.
 
-5. **Compliance Dashboard** - Kat
+5. **Compliance Dashboard**
     - **Purpose**: Offer an overview of regulatory compliance across all pollutants, showing which substances meet or exceed safety standards.
     - **Key Elements**:
         - **Summary Cards**: Display compliance status for each pollutant with a quick colour-coded indicator.
