@@ -3,7 +3,7 @@
 
 This project is a Water Quality Monitoring application made for Qt6 (built with Qt6.7.3), C++, and CMake. It allows users to interact with water quality data, load CSV files, and visualize pollutant compliance trends through various dashboards.
 
-## Team Members
+## Team Members (Group 18)
 
 - **Sultan AlShaikh** - 201763715
 - **Katherina Warren** - 201701314
