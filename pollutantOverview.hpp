@@ -45,6 +45,9 @@ private:
     // Add dropdownGroups to store times for each group
     QMap<QString, QStringList> dropdownGroups;
 
+    // Function to get pollutant information (health risk, compliance, etc.)
+    QString getPollutantInfo(const QString& pollutant) const;
+
     void loadData(const QString& filePath);
     QStringList parseCSVLine(const QString& line) const;
     void populateDropdown();

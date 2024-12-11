@@ -38,7 +38,7 @@ PollutantOverviewPage::PollutantOverviewPage(QWidget* parent) : QWidget(parent)
     // Create the table view and model
     tableView = new QTableView(this);
     dataModel = new QStandardItemModel(this);
-    dataModel->setHorizontalHeaderLabels({"Sampling Point", "Date", "Compound", "Result", "Unit", "Compliance"});
+    dataModel->setHorizontalHeaderLabels({"Sampling Point", "Date", "pollutant", "Result", "Unit", "Compliance"});
     tableView->setModel(dataModel);
     tableView->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
@@ -261,6 +261,7 @@ void PollutantOverviewPage::createChartForGroup(const QString& selection) {
     QMap<QString, QMap<QString, double>> timeToSamplingPointMap; 
     QSet<QString> uniqueSamplingPoints; 
     QStringList xAxisLabels;   
+    QMap<QString, QString> timeToPollutantMap;
 
     // Populate data for chart and X-axis labels
     for (const QString& time : times) {
@@ -268,6 +269,7 @@ void PollutantOverviewPage::createChartForGroup(const QString& selection) {
             QString rowDate = dataModel->item(i, 1)->text();
             QString samplingPoint = dataModel->item(i, 0)->text();
             QString result = dataModel->item(i, 3)->text();
+            QString pollutant = dataModel->item(i, 2)->text();
 
             QDateTime dateTime = QDateTime::fromString(rowDate, "yyyy-MM-ddThh:mm:ss");
             if (!dateTime.isValid() || dateTime.toString("yyyy-MM-dd hh:mm:ss") != time) {
@@ -283,7 +285,8 @@ void PollutantOverviewPage::createChartForGroup(const QString& selection) {
             }
 
             timeToSamplingPointMap[time][samplingPoint] = value; 
-            uniqueSamplingPoints.insert(samplingPoint);      
+            uniqueSamplingPoints.insert(samplingPoint);   
+            timeToPollutantMap[time] = pollutant;    
 
             // Add formatted label for X-axis
             QString formattedLabel = QString("%1\n%2")
@@ -307,6 +310,23 @@ void PollutantOverviewPage::createChartForGroup(const QString& selection) {
             }
         }
         series->append(barSet);
+
+        // Connect hover event to show tooltip
+        connect(barSet, &QBarSet::hovered, this, [this, barSet, samplingPoint, pollutant = timeToPollutantMap.value(times.first())](bool state, int index) {
+            if (state) {
+                // Show tooltip when hovering over the bar
+                double value = barSet->at(index);
+                QString tooltipText = QString("Pollutant: %1\nValue: %2 µg/L\n%3")
+                    .arg(pollutant)
+                    .arg(value, 0, 'f', 5)
+                    .arg(getPollutantInfo(pollutant));
+
+                QToolTip::showText(QCursor::pos(), tooltipText);
+            } else {
+                // Hide tooltip when not hovering
+                QToolTip::hideText();
+            }
+        });
     }
 
     chart->addSeries(series);
@@ -347,4 +367,17 @@ void PollutantOverviewPage::filterTableData(const QString& text)
         }
         tableView->setRowHidden(i, !matches);
     }
+}
+
+QString PollutantOverviewPage::getPollutantInfo(const QString& pollutant) const {
+    if (pollutant == "Chloroform") {
+        return "Health Risk: Potential carcinogen.\nCompliance Status: Regular monitoring in drinking water.\nSafety Threshold: ≤ 0.1 µg/L.";
+    } else if (pollutant == "112TCEthan") {
+        return "Health Risk: Possible liver and kidney damage.\nCompliance Status: Regular monitoring in industrial areas.\nSafety Threshold: ≤ 0.1 µg/L.";
+    } else if (pollutant == "Benzene") {
+        return "Health Risk: Carcinogenic in hexavalent form.\nCompliance Status: Essential in industrial discharge.\nSafety Threshold: ≤ 1.0 µg/L.";
+    } else if (pollutant == "Toluene") {
+        return "Health Risk: Toxic to the nervous system.\nCompliance Status: Important in fish and water sources.\nSafety Threshold: ≤ 0.02 µg/L.";
+    }
+    return "Health Risk: Unknown.\nCompliance Status: Not specified.\nSafety Threshold: General ≤ 0.001 µg/L.";
 }
