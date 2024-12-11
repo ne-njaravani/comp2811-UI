@@ -348,7 +348,7 @@ void PollutantOverviewPage::createChartForGroup(const QString& selection) {
 
     // Chart title and legend
     QString title = selection.left(selection.lastIndexOf("(")).trimmed();
-    chart->setTitle(QString("Trends for %1").arg(title));
+    chart->setTitle(QString("Trends for %1 - Threshold = 1.0µg/L").arg(title));
     chart->legend()->setVisible(true);
     chart->legend()->setAlignment(Qt::AlignBottom);
 
