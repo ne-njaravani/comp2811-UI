@@ -1,9 +1,0 @@
--rootPath
-/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI
--cmake-output
--output-file
-/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/.qt/qml_imports/watertool_conf.cmake
--importPath
-/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build
--importPath
-/Users/Sultan/Qt/6.7.3/macos/qml

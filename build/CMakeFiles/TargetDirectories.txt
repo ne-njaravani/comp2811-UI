@@ -1,6 +1,0 @@
-/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/watertool.dir
-/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/watertool_qmlimportscan.dir
-/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/edit_cache.dir
-/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/rebuild_cache.dir
-/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/watertool_autogen_timestamp_deps.dir
-/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles/watertool_autogen.dir
