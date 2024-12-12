@@ -54,6 +54,28 @@ Note: If using VSCode, edit the settings.json file in the .vscode folder and run
 - **Navigation**: Navigate to different data views like Pollutant Overview, Compliance Dashboard, and more.
 - **Responsive Design**: The application layout adjusts to the screen size, ensuring all data fits.
 
+## Dependencies
+
+- If using VSCode, make sure you edit the .vscode/settings.json file to redirect the CMake to your path location.
+- If using Linux, all the CMake settings should be fine with the CMakeLists.txt in the root folder.
+
+## File Structure
+
+- .vscode
+- build
+- data
+    - Y-2024.csv
+- Ethics Documentation
+- translations
+- Videos
+- CMakeLists.txt
+- README.md
+- report.pdf
+- COMP2811 Feedback Fruits Tasks Overview .md
+- COMP2811_CW3_Requirements.md
+- (All .cpp files)
+- (All .hpp files)
+
 ## License
 
 This project is a coursework for a university module, therefore, it is not made with the intention of making a profit.
