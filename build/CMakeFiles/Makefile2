@@ -81,9 +81,9 @@ clean: CMakeFiles/watertool_autogen.dir/clean
 # Target rules for target CMakeFiles/watertool.dir
 
 # All Build rule for target.
-CMakeFiles/watertool.dir/all: CMakeFiles/watertool_autogen_timestamp_deps.dir/all
 CMakeFiles/watertool.dir/all: CMakeFiles/watertool_autogen.dir/all
 CMakeFiles/watertool.dir/all: CMakeFiles/watertool_qmlimportscan.dir/all
+CMakeFiles/watertool.dir/all: CMakeFiles/watertool_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/Sultan/Desktop/User Interfaces/Github Repository/comp2811-UI/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target watertool"
